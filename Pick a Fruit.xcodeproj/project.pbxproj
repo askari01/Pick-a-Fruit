@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		366375F01C552C1B00C2C38F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366375EF1C552C1B00C2C38F /* AppDelegate.swift */; };
+		366375F21C552C1B00C2C38F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366375F11C552C1B00C2C38F /* ViewController.swift */; };
+		366375F51C552C1B00C2C38F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366375F31C552C1B00C2C38F /* Main.storyboard */; };
+		366375F71C552C1B00C2C38F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366375F61C552C1B00C2C38F /* Assets.xcassets */; };
+		366375FA1C552C1B00C2C38F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366375F81C552C1B00C2C38F /* LaunchScreen.storyboard */; };
+		366376051C552C1B00C2C38F /* Pick_a_FruitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366376041C552C1B00C2C38F /* Pick_a_FruitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		366376011C552C1B00C2C38F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 366375E41C552C1B00C2C38F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 366375EB1C552C1B00C2C38F;
+			remoteInfo = "Pick a Fruit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		366375EC1C552C1B00C2C38F /* Pick a Fruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pick a Fruit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		366375EF1C552C1B00C2C38F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		366375F11C552C1B00C2C38F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		366375F41C552C1B00C2C38F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		366375F61C552C1B00C2C38F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		366375F91C552C1B00C2C38F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		366375FB1C552C1B00C2C38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366376001C552C1B00C2C38F /* Pick a FruitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pick a FruitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		366376041C552C1B00C2C38F /* Pick_a_FruitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pick_a_FruitTests.swift; sourceTree = "<group>"; };
+		366376061C552C1B00C2C38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		366375E91C552C1B00C2C38F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366375FD1C552C1B00C2C38F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		366375E31C552C1B00C2C38F = {
+			isa = PBXGroup;
+			children = (
+				366375EE1C552C1B00C2C38F /* Pick a Fruit */,
+				366376031C552C1B00C2C38F /* Pick a FruitTests */,
+				366375ED1C552C1B00C2C38F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		366375ED1C552C1B00C2C38F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				366375EC1C552C1B00C2C38F /* Pick a Fruit.app */,
+				366376001C552C1B00C2C38F /* Pick a FruitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		366375EE1C552C1B00C2C38F /* Pick a Fruit */ = {
+			isa = PBXGroup;
+			children = (
+				366375EF1C552C1B00C2C38F /* AppDelegate.swift */,
+				366375F11C552C1B00C2C38F /* ViewController.swift */,
+				366375F31C552C1B00C2C38F /* Main.storyboard */,
+				366375F61C552C1B00C2C38F /* Assets.xcassets */,
+				366375F81C552C1B00C2C38F /* LaunchScreen.storyboard */,
+				366375FB1C552C1B00C2C38F /* Info.plist */,
+			);
+			path = "Pick a Fruit";
+			sourceTree = "<group>";
+		};
+		366376031C552C1B00C2C38F /* Pick a FruitTests */ = {
+			isa = PBXGroup;
+			children = (
+				366376041C552C1B00C2C38F /* Pick_a_FruitTests.swift */,
+				366376061C552C1B00C2C38F /* Info.plist */,
+			);
+			path = "Pick a FruitTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		366375EB1C552C1B00C2C38F /* Pick a Fruit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366376091C552C1B00C2C38F /* Build configuration list for PBXNativeTarget "Pick a Fruit" */;
+			buildPhases = (
+				366375E81C552C1B00C2C38F /* Sources */,
+				366375E91C552C1B00C2C38F /* Frameworks */,
+				366375EA1C552C1B00C2C38F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pick a Fruit";
+			productName = "Pick a Fruit";
+			productReference = 366375EC1C552C1B00C2C38F /* Pick a Fruit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		366375FF1C552C1B00C2C38F /* Pick a FruitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3663760C1C552C1B00C2C38F /* Build configuration list for PBXNativeTarget "Pick a FruitTests" */;
+			buildPhases = (
+				366375FC1C552C1B00C2C38F /* Sources */,
+				366375FD1C552C1B00C2C38F /* Frameworks */,
+				366375FE1C552C1B00C2C38F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				366376021C552C1B00C2C38F /* PBXTargetDependency */,
+			);
+			name = "Pick a FruitTests";
+			productName = "Pick a FruitTests";
+			productReference = 366376001C552C1B00C2C38F /* Pick a FruitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		366375E41C552C1B00C2C38F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Syed Askari";
+				TargetAttributes = {
+					366375EB1C552C1B00C2C38F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Y674B9FK8P;
+					};
+					366375FF1C552C1B00C2C38F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Y674B9FK8P;
+						TestTargetID = 366375EB1C552C1B00C2C38F;
+					};
+				};
+			};
+			buildConfigurationList = 366375E71C552C1B00C2C38F /* Build configuration list for PBXProject "Pick a Fruit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 366375E31C552C1B00C2C38F;
+			productRefGroup = 366375ED1C552C1B00C2C38F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				366375EB1C552C1B00C2C38F /* Pick a Fruit */,
+				366375FF1C552C1B00C2C38F /* Pick a FruitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		366375EA1C552C1B00C2C38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366375FA1C552C1B00C2C38F /* LaunchScreen.storyboard in Resources */,
+				366375F71C552C1B00C2C38F /* Assets.xcassets in Resources */,
+				366375F51C552C1B00C2C38F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366375FE1C552C1B00C2C38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		366375E81C552C1B00C2C38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366375F21C552C1B00C2C38F /* ViewController.swift in Sources */,
+				366375F01C552C1B00C2C38F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366375FC1C552C1B00C2C38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366376051C552C1B00C2C38F /* Pick_a_FruitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		366376021C552C1B00C2C38F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 366375EB1C552C1B00C2C38F /* Pick a Fruit */;
+			targetProxy = 366376011C552C1B00C2C38F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		366375F31C552C1B00C2C38F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				366375F41C552C1B00C2C38F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		366375F81C552C1B00C2C38F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				366375F91C552C1B00C2C38F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		366376071C552C1B00C2C38F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		366376081C552C1B00C2C38F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3663760A1C552C1B00C2C38F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pick a Fruit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.askari01.Pick-a-Fruit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3663760B1C552C1B00C2C38F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pick a Fruit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.askari01.Pick-a-Fruit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3663760D1C552C1B00C2C38F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pick a FruitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.askari01.Pick-a-FruitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pick a Fruit.app/Pick a Fruit";
+			};
+			name = Debug;
+		};
+		3663760E1C552C1B00C2C38F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pick a FruitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.askari01.Pick-a-FruitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pick a Fruit.app/Pick a Fruit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		366375E71C552C1B00C2C38F /* Build configuration list for PBXProject "Pick a Fruit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366376071C552C1B00C2C38F /* Debug */,
+				366376081C552C1B00C2C38F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366376091C552C1B00C2C38F /* Build configuration list for PBXNativeTarget "Pick a Fruit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3663760A1C552C1B00C2C38F /* Debug */,
+				3663760B1C552C1B00C2C38F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3663760C1C552C1B00C2C38F /* Build configuration list for PBXNativeTarget "Pick a FruitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3663760D1C552C1B00C2C38F /* Debug */,
+				3663760E1C552C1B00C2C38F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 366375E41C552C1B00C2C38F /* Project object */;
+}
